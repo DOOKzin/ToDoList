@@ -64,7 +64,7 @@ const updateTodo = (editImputValue) =>{
             todoTitle.innerText = editImputValue
             
         // Utilizando dados da localStorage
-        updateTodoLocalStorage(oldInputValue, text);
+        updateTodoLocalStorage(oldInputValue, editImputValue);
         }
     })
 }
